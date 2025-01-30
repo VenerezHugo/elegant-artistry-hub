@@ -60,7 +60,7 @@ export default {
         },
       },
       fontFamily: {
-        display: ["Didot", "serif"],
+        display: ["Linotype Didot", "Didot", "Didot LT STD", "serif"],
         sans: ["Inter", "sans-serif"],
       },
       keyframes: {
