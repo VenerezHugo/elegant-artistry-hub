@@ -16,12 +16,12 @@ export const Newsletter = () => {
   };
 
   return (
-    <section className="py-32 bg-gradient-to-b from-art-black to-black text-art-white">
+    <section className="py-32 bg-art-forest text-art-cream">
       <div className="container mx-auto px-4 max-w-xl text-center">
-        <h2 className="text-4xl font-light mb-6 tracking-wide">
+        <h2 className="text-4xl font-display mb-6 tracking-wide">
           Stay Informed
         </h2>
-        <p className="text-art-white/70 mb-12 font-light">
+        <p className="text-art-cream/70 mb-12 font-light">
           Subscribe to receive exclusive updates about new artwork releases and market insights.
         </p>
         <form onSubmit={handleSubmit} className="flex gap-4">
@@ -30,12 +30,12 @@ export const Newsletter = () => {
             placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="flex-1 bg-transparent border-art-white/20 text-art-white placeholder:text-art-white/50 focus:border-art-gold"
+            className="flex-1 bg-transparent border-art-cream/20 text-art-cream placeholder:text-art-cream/50 focus:border-art-cream"
             required
           />
           <Button 
             type="submit" 
-            className="bg-art-white text-art-black hover:bg-art-gold transition-colors duration-300 px-8"
+            className="bg-art-cream text-art-forest hover:bg-art-cream/90 transition-colors duration-300 px-8"
           >
             Subscribe
           </Button>

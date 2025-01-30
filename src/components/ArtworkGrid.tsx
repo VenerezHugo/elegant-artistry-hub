@@ -29,9 +29,9 @@ const artworks = [
 
 export const ArtworkGrid = () => {
   return (
-    <section className="py-32 bg-gradient-to-b from-art-black to-black">
+    <section className="py-32 bg-art-forest">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-light mb-16 text-art-white text-center tracking-wide">
+        <h2 className="text-5xl font-display mb-16 text-art-cream text-center tracking-wide">
           Featured Collection
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -47,11 +47,11 @@ export const ArtworkGrid = () => {
                   className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
-              <div className="p-6 bg-gradient-to-t from-black/90 to-transparent absolute bottom-0 w-full text-art-white">
-                <h3 className="text-xl font-light tracking-wide mb-2">
+              <div className="p-6 bg-gradient-to-t from-art-forest/90 to-transparent absolute bottom-0 w-full text-art-cream">
+                <h3 className="text-xl font-display tracking-wide mb-2">
                   {artwork.title}
                 </h3>
-                <p className="text-art-white/70 font-light">{artwork.artist}</p>
+                <p className="text-art-cream/70 font-light">{artwork.artist}</p>
               </div>
             </Card>
           ))}

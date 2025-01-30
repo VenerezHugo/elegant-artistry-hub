@@ -25,8 +25,8 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         art: {
-          black: "#1A1F2C",
-          white: "#F1F0FB",
+          forest: "#223E2E",
+          cream: "#F2EDE4",
           gold: "#E6B980",
           gray: "#8E9196",
         },
@@ -58,6 +58,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      fontFamily: {
+        display: ["Playfair Display", "serif"],
+        sans: ["Inter", "sans-serif"],
       },
       keyframes: {
         fadeIn: {
