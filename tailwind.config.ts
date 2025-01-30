@@ -60,7 +60,7 @@ export default {
         },
       },
       fontFamily: {
-        display: ["Playfair Display", "serif"],
+        display: ["Didot", "serif"],
         sans: ["Inter", "sans-serif"],
       },
       keyframes: {

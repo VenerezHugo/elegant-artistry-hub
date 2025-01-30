@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-art-forest">
-      <div className="absolute inset-0 bg-[url('/lovable-uploads/d5c93bf1-54f8-4314-b267-b872777f50f6.png')] bg-cover bg-center opacity-20" />
       <div className="container relative z-10 mx-auto px-4 text-center animate-fadeIn">
         <h1 className="text-6xl md:text-8xl font-display mb-8 tracking-wide text-art-cream">
           DOBNEY'S
