@@ -25,7 +25,7 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         art: {
-          forest: "#223E2E",
+          forest: "#143d2c",
           cream: "#F2EDE4",
           gold: "#E6B980",
           gray: "#8E9196",
@@ -60,7 +60,7 @@ export default {
         },
       },
       fontFamily: {
-        display: ["Linotype Didot", "Didot", "Didot LT STD", "serif"],
+        display: ["Alta", "serif"],
         sans: ["Inter", "sans-serif"],
       },
       keyframes: {
