@@ -60,7 +60,7 @@ export default {
         },
       },
       fontFamily: {
-        display: ["Alta", "serif"],
+        display: ["Cormorant Garamond", "serif"],
         sans: ["Inter", "sans-serif"],
       },
       keyframes: {
