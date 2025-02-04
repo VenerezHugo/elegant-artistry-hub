@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-art-purple to-art-forest">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-art-forest to-art-forest/90">
       <div className="absolute inset-0 bg-[url('/placeholder.svg')] opacity-20 mix-blend-overlay"></div>
       <div className="container relative z-10 mx-auto px-4 text-center animate-fadeIn">
         <h1 className="text-6xl md:text-8xl font-display mb-8 tracking-wider text-art-cream">
