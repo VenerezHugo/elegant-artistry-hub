@@ -29,6 +29,8 @@ export default {
           cream: "#F2EDE4",
           gold: "#E6B980",
           gray: "#8E9196",
+          charcoal: "#403E43",
+          purple: "#1A1F2C",
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",

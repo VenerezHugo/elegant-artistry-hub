@@ -29,16 +29,16 @@ const artworks = [
 
 export const ArtworkGrid = () => {
   return (
-    <section className="py-32 bg-art-forest">
+    <section className="py-32 bg-gradient-to-b from-art-forest to-art-purple">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-display mb-16 text-art-cream text-center tracking-wide">
+        <h2 className="text-5xl font-display mb-16 text-art-cream text-center tracking-wider">
           Featured Collection
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {artworks.map((artwork) => (
             <Card
               key={artwork.id}
-              className="group relative overflow-hidden transition-transform duration-500 hover:-translate-y-2 bg-transparent border-0"
+              className="group relative overflow-hidden transition-transform duration-500 hover:-translate-y-2 bg-transparent border border-art-cream/10 hover:border-art-gold/30"
             >
               <div className="aspect-[3/4] overflow-hidden">
                 <img
@@ -47,8 +47,8 @@ export const ArtworkGrid = () => {
                   className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
-              <div className="p-6 bg-gradient-to-t from-art-forest/90 to-transparent absolute bottom-0 w-full text-art-cream">
-                <h3 className="text-xl font-display tracking-wide mb-2">
+              <div className="p-6 bg-gradient-to-t from-art-purple/90 to-transparent absolute bottom-0 w-full text-art-cream">
+                <h3 className="text-xl font-display tracking-wider mb-2">
                   {artwork.title}
                 </h3>
                 <p className="text-art-cream/70 font-light">{artwork.artist}</p>

@@ -16,9 +16,9 @@ export const Newsletter = () => {
   };
 
   return (
-    <section className="py-32 bg-art-forest text-art-cream">
+    <section className="py-32 bg-gradient-to-b from-art-purple to-art-forest text-art-cream">
       <div className="container mx-auto px-4 max-w-xl text-center">
-        <h2 className="text-4xl font-display mb-6 tracking-wide">
+        <h2 className="text-4xl font-display mb-6 tracking-wider">
           Stay Informed
         </h2>
         <p className="text-art-cream/70 mb-12 font-light">
@@ -30,12 +30,12 @@ export const Newsletter = () => {
             placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="flex-1 bg-transparent border-art-cream/20 text-art-cream placeholder:text-art-cream/50 focus:border-art-cream"
+            className="flex-1 bg-transparent border-art-cream/20 text-art-cream placeholder:text-art-cream/50 focus:border-art-gold"
             required
           />
           <Button 
             type="submit" 
-            className="bg-art-cream text-art-forest hover:bg-art-cream/90 transition-colors duration-300 px-8"
+            className="bg-art-gold text-art-forest hover:bg-art-gold/90 transition-colors duration-300 px-8"
           >
             Subscribe
           </Button>
