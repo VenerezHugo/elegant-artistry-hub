@@ -11,7 +11,7 @@ export const Hero = () => {
         <p className="text-xl md:text-2xl mb-12 max-w-2xl mx-auto font-light tracking-widest text-art-cream/90 uppercase">
           Unlock the World of Art
         </p>
-        <div className="w-48 h-px bg-art-gold/50 mx-auto mt-16" />
+        <div className="w-48 h-px bg-art-cream mx-auto mt-16" />
       </div>
     </section>
   );
