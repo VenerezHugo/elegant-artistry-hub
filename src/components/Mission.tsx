@@ -1,6 +1,6 @@
 export const Mission = () => {
   return (
-    <section className="py-32 bg-gradient-to-b from-black to-art-forest">
+    <section className="py-32 bg-black">
       <div className="container mx-auto px-4 max-w-5xl text-center">
         <h2 className="text-5xl font-display mb-12 text-art-cream tracking-wider">Our Vision</h2>
         <p className="text-xl leading-relaxed mb-16 text-art-cream/80 font-light max-w-3xl mx-auto">
