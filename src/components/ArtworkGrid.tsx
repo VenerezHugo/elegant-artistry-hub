@@ -29,7 +29,7 @@ const artworks = [
 
 export const ArtworkGrid = () => {
   return (
-    <section className="py-32 bg-gradient-to-b from-art-forest to-black">
+    <section className="py-32 bg-gradient-to-b from-black to-art-forest">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl font-display mb-16 text-art-cream text-center tracking-wider">
           Featured Collection
