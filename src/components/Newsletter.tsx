@@ -16,7 +16,7 @@ export const Newsletter = () => {
   };
 
   return (
-    <section className="py-32 bg-gradient-to-b from-black to-art-forest text-art-cream">
+    <section className="py-32 bg-gradient-to-b from-art-forest to-black text-art-cream">
       <div className="container mx-auto px-4 max-w-xl text-center">
         <h2 className="text-4xl font-display mb-6 tracking-wider">
           Stay Informed
