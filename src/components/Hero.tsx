@@ -16,7 +16,32 @@ export const Hero = () => {
             & Artifacts
           </p>
         </div>
-        <div className="w-48 h-px bg-art-cream mx-auto mt-16" />
+        <div className="w-48 h-px bg-art-cream mx-auto mt-16 mb-16" />
+        
+        {/* New content: Two columns with connected words */}
+        <div className="flex justify-between max-w-4xl mx-auto">
+          {/* Left column */}
+          <div className="flex flex-col items-center">
+            <p className="text-4xl font-display text-art-cream tracking-wider">
+              ACCESSIBILITY
+            </p>
+            <div className="w-24 h-px bg-art-cream my-4" />
+            <p className="text-4xl font-display text-art-cream tracking-wider">
+              LIQUIDITY
+            </p>
+          </div>
+          
+          {/* Right column */}
+          <div className="flex flex-col items-center">
+            <p className="text-4xl font-display text-art-cream tracking-wider">
+              COMMUNITY
+            </p>
+            <div className="w-24 h-px bg-art-cream my-4" />
+            <p className="text-4xl font-display text-art-cream tracking-wider">
+              CULTURE
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
