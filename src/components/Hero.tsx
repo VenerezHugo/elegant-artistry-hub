@@ -17,35 +17,6 @@ export const Hero = () => {
           </p>
         </div>
         <div className="w-48 h-px bg-art-cream mx-auto mt-8 mb-12" />
-        
-        <h2 className="text-3xl md:text-4xl font-display mb-16 text-art-cream tracking-wider">
-          Explore, Preserve & Protect the valuable data of our world's art & artifacts
-        </h2>
-        
-        {/* Two columns with connected words */}
-        <div className="flex justify-between max-w-4xl mx-auto">
-          {/* Left column */}
-          <div className="flex flex-col items-center">
-            <p className="text-4xl font-display text-art-cream tracking-wider">
-              ACCESSIBILITY
-            </p>
-            <div className="w-px h-24 bg-art-cream my-4" />
-            <p className="text-4xl font-display text-art-cream tracking-wider">
-              LIQUIDITY
-            </p>
-          </div>
-          
-          {/* Right column */}
-          <div className="flex flex-col items-center">
-            <p className="text-4xl font-display text-art-cream tracking-wider">
-              COMMUNITY
-            </p>
-            <div className="w-px h-24 bg-art-cream my-4" />
-            <p className="text-4xl font-display text-art-cream tracking-wider">
-              CULTURE
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
